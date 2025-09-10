@@ -4079,7 +4079,7 @@ ul.icon-with-text.icon-with-text--horizontal.list-unstyled {
 .spec-box {
     display: flex;
     justify-content: space-between;
-    width: 185%;
+       width: 144%;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: flex-end;
