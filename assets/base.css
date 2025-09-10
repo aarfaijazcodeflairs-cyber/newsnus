@@ -4011,7 +4011,7 @@ h2.inline-richtext.h1.scroll-trigger.animate--slide-in {
     gap: 1rem;
     flex-wrap: nowrap;
     position: relative;
-    right: 40px;
+    right: 60px;
     flex-direction: row-reverse;
 }
 .product__inventory {
