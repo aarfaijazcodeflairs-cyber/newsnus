@@ -4139,3 +4139,6 @@ quantity-input.quantity {
 .price.price--large.price--show-badge {
     padding: 0px;
 }
+.spec-box h3 {
+    font-weight: 600;
+}
