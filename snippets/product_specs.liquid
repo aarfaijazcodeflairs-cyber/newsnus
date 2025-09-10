@@ -1,0 +1,26 @@
+{% assign specs_text = product.metafields.custom.specification_of_products %}
+
+{% if specs_text != blank %}
+  <div class="specifications-heading">
+    <h3>Specifications</h3>
+  </div>
+
+  <div class="specifications-of-velo-flex">
+    {% assign specs_array = specs_text | split: ";" %}
+    {% for spec in specs_array %}
+      {% assign parts = spec | split: ":" %}
+      {% assign spec_name = parts[0] %}
+      {% assign spec_value = parts[1] %}
+      <div class="spec-box">
+        <div class="spec-title">
+          <h3>{{ spec_name }}</h3>
+        </div>
+        <div class="spec-value">
+          <p>{{ spec_value }}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% else %}
+  <p>No specifications found for this product.</p>
+{% endif %}
