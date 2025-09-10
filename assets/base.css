@@ -4079,7 +4079,7 @@ ul.icon-with-text.icon-with-text--horizontal.list-unstyled {
 .spec-box {
     display: flex;
     justify-content: space-between;
-    width: 144%;
+    width: 130%;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: flex-end;
@@ -4100,7 +4100,7 @@ ul.icon-with-text.icon-with-text--horizontal.list-unstyled {
 }
 .specifications-heading{
     background: #f7f7f7;
-    width:144%;
+    width:130%;
 }
 .spec-box {
     border-bottom: 1px solid #e4e2e2;
