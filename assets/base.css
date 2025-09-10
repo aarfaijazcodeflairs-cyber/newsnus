@@ -4079,7 +4079,7 @@ ul.icon-with-text.icon-with-text--horizontal.list-unstyled {
 .spec-box {
     display: flex;
     justify-content: space-between;
-       width: 144%;
+    width: 144%;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: flex-end;
@@ -4092,7 +4092,6 @@ ul.icon-with-text.icon-with-text--horizontal.list-unstyled {
 .specifications-heading h3 {
     position: relative;
     text-align: center;
-    /* padding-bottom: 0px; */
     margin-bottom: 0px;
     padding: 40px;
     font-weight: 600;
