@@ -4140,3 +4140,6 @@ quantity-input.quantity {
 .spec-box h3 {
     font-weight: 600;
 }
+.grid__item.product__media-wrapper {
+    margin-right: 23px;
+}
